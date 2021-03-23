@@ -41,7 +41,7 @@ The table creation commands are available in `table_creation_ddl.sql` script.
 ## What is done from “Points to achieve” and number of entries in the tables with sample 10 rows from each
 ### Achievements:
 1. The code follows the concept of OOPS
-2. Apache Spark has been used for parallel ingestion of file
+2. Apache Spark has been used for parallel ingestion of file 
 3. Spark also takes less time and it's taking less than a minute to load the data from the file in both the tables.
 4. All product details are being ingested in a single table, in this case `prod_desc`
 5. An aggregated table `prod_count` on the given rows with `name` and `no_of_products` as the columns have been created.
