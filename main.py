@@ -7,6 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # spark configurations
+# extra comment
 spark_conf = SparkConf().setAppName("large-file-processing") \
     .setMaster("local[4]") \
     .set("spark.driver.extraClassPath", "/dependency_jars/postgresql-42.2.19.jar")
