@@ -30,7 +30,7 @@ class LargeFileProcessing(object):
     def read_from_csv(file_path):
         """
         This static method reads a csv file and returns that as a spark dataframe
-        :param file_path:
+        :param file_path: string
         :return dataframe:
         """
         try:
